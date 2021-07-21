@@ -29,58 +29,66 @@ Kiara's favorite colors are lavender and gold.
 She loves to watch horror movies and is a big Harry Potter fan.</p> 
 
 <script>
-    let birthday = no;
+   
+   let birthday = false;
         while (birthday)
         {
             let response = prompt("Is Kiara's birthday March 31?").toUpperCase(); //user should enter a 'n'
             if (response === 'n')
             {
-                birthday = no;
+                birthday = false;
             }
         }
-let movie = yes;
+
+      
+
+let movie = true;
         while (movie)
         {
             let response = prompt("Is Kiara's favorite movie Scary Movie 3?").toLowerCase(); //user should enter a 'y'
             if (response === 'y')
             {
-                movie = yes
+                movie = true
             }
         }
 
- let job = no;
+
+ let job = false;
         while (job)
         {
             let response = prompt("Have Kiara ever had a job?").toLowerCase(); //user should enter a 'n' 
             if (response === 'n')
             {
-                job = no
+                job = false
             }
         }
 
-let color = no;
+let color = false;
         while (color)
         {
             let response = prompt("Is Kiara's favorite color green?").toUpperCase();  //user should enter a 'n'
             if (response === 'n')
             {
-                color = no
+                color = false
             }
         }   
 
-let goal = yes;
+let goal = true;
         while (goal)
         {
             let response = prompt("Is Kiara's goal is to finish school?").toLowerCase(); //user should enter a 'y' 
             if (response === 'y')
             {
-                goal = yes
+                goal = true
             }
         }
-        let quizQuestion = prompt("enter an answer;");
-        console.log("The answer is " + quizQuestion);
-        console. log("The answer is " + quizQuestion.toUpperCase());
-        console.log("The answer is " + quizQuestion.toLowerCase()); 
+
+        let response = prompt("enter a answer:");
+    console.log("The answer is " + response);
+    console.log("The answer is " + response.toUpperCase());
+    console.log("The answer is " + response.toLowerCase());
+
+
 </script>
 </body>
 </html>
