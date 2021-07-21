@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+        h1 {
+            color: rgb(174, 0, 255);
+            text-align: center;
+        } 
+        h2{
+            color: gold;
+        }
+     </style>
+
+</head>
+<body>
+    <h1>About Me</h1>
+    <h2>Biography</h2>
+    <p>Kiara was born August 19 2000 in Chicago, Illnois.
+Kiara is a very smart and intellgent person. 
+She graduated high school at the top of her class and went to two other colleges for beauty and business.
+She is a stay at home mom and never worked a day in her life.
+Kiara has many goals but her main two are having a safe delivery and finishing school to support her family.
+Kiara's favorite colors are lavender and gold. 
+She loves to watch horror movies and is a big Harry Potter fan.</p> 
+
+<script>
+   
+   let birthday = true;
+        while (birthday)
+        {
+            let response = prompt("Is Kiara's birthday March 31?").toUpperCase(); //user should enter a 'n'
+            if (response.toUpperCase() === 'n' || response.toUpperCase() === "NO")
+            {
+                birthday = false;
+            }
+        }
+
+      
+
+let movie = true;
+        while (movie)
+        {
+            let response = prompt("Is Kiara's favorite movie Scary Movie 3?").toLowerCase(); //user should enter a 'y'
+            if (response.toLowerCase() === 'y' || response.toLowerrCase() === "YES")
+            {
+                movie = false
+            }
+        }
+
+
+ let job = true;
+        while (job)
+        {
+            let response = prompt("Have Kiara ever had a job?").toLowerCase(); //user should enter a 'n' 
+            if (response.toLowerCase() === 'n'|| response.toLowerCase() === "NO")
+            {
+                job = false
+            }
+        }
+
+let color = true;
+        while (color)
+        {
+            let response = prompt("Is Kiara's favorite color green?").toUpperCase();  //user should enter a 'n'
+            if (response.toUpperCase === 'n'|| response.toUpperCase() === "NO")
+            {
+                color = false
+            }
+        }   
+
+let goal = true;
+        while (goal)
+        {
+            let response = prompt("Is Kiara's goal is to finish school?").toLowerCase(); //user should enter a 'y' 
+            if (response.toLowerCase() === 'y'|| response.toLowerCase() === "YES")
+            {
+                goal = false
+            }
+        }
+
+        let response = prompt("enter a answer:");
+    console.log("The answer is " + response.toUpperCase() + response.toLowerCase());
+
+
+</script>
+</body>
+</html>
