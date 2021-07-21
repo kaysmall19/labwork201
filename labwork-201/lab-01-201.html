@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJ'S Cupcakes</title>
+    <style>
+       h1 {
+           color: gray;
+       } 
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to BJ'S Cupcakes!!!!</h1>
+    <p style="color: rgb(210, 36, 30);"> 
+        BJ'S Cupcakes are made with love and decorated by hand. These cupcakes make your day just a little better.</p>
+    <div class="paintitgreen">
+        <h3>Here is my stuff</h3>
+    </div>
+<!-- Lets add our javascript and do stuff -->    
+<script>
+    // Ask for flavor cupcake.
+    let flavorEntered = prompt("Enter your flavor cupcake?");
+    let flavorNotEntered = prompt("What do you NOT want on your cupcake?");
+    // Ask if they are sure
+    let wereTheySure = confirm("So you said your flavor was " + flavorEntered + " Are you sure you don't want sprinkles " + flavorNotEntered);
+    // Output the result
+    alert("So OK your flavor is " + flavorEntered + " and are you sure about your flaovr? " + wereTheySure);
+
+</script>
+
+</body>
+</html>
