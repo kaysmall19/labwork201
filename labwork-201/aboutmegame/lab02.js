@@ -55,3 +55,6 @@ let goal = true;
    
  console.log("The answer is " + response.toUpperCase() + response.toLowerCase());
 
+ 
+ prompt ("What is your name?");
+ console.log ("name");
