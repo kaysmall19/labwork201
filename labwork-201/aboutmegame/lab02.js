@@ -1,5 +1,5 @@
-//quizzing the user 
-  
+//quizzing the user
+  //LAB 02
   let birthday = true;
         while (birthday)
         {
@@ -63,12 +63,7 @@ let goal = true;
 //             }
 
 
-// As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
-// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-// Indicates through an alert if the guess is “too high” or “too low”.
-// It should give the user exactly four opportunities to get the correct answer.
-// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
-
+//LAB03
 // know the age we want guessed
 let myAge = 21;
         let theyGotItCorrect = false;
@@ -107,3 +102,6 @@ let myAge = 21;
 
 // As a user, I would like to know my final score so that I can know how well I did.
 // Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
+
+
+//LAB04
