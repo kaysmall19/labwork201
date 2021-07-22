@@ -56,3 +56,4 @@ let goal = true;
  let response = prompt("enter a answer:");
     
  console.log("The answer is " + response.toUpperCase() + response.toLowerCase());
+
