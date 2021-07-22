@@ -1,6 +1,13 @@
+// Ask for a name
+let nameEntered = prompt("Enter your Name?");
+// Welcome the user
+let welcome = confirm("So you said your name was " + nameEntered + welcome);
+// Output the result
+alert("So OK your name is " + nameEntered + + welcome);
 
-   
-   let birthday = true;
+  //quizzing the user 
+  
+  let birthday = true;
         while (birthday)
         {
             let response = prompt("Is Kiara's birthday March 31?").toUpperCase(); //user should enter a 'n'
