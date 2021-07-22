@@ -1,9 +1,9 @@
-// Ask for a name
-let nameEntered = prompt("Enter your Name?");
-// Welcome the user
-let welcome = confirm("So you said your name was " + nameEntered + welcome);
-// Output the result
-alert("So OK your name is " + nameEntered + + welcome);
+// // Ask for a name
+// let nameEntered = prompt("Enter your Name?");
+// // Welcome the user
+// let welcome = confirm("So you said your name was " + nameEntered + welcome);
+// // Output the result
+// alert("So OK your name is " + nameEntered + + welcome);
 
   //quizzing the user 
   
