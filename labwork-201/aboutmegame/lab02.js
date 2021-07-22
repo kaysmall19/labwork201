@@ -16,7 +16,7 @@ let movie = true;
         while (movie)
         {
             let response = prompt("Is Kiara's favorite movie Scary Movie 3?").toLowerCase(); //user should enter a 'y'
-            if (response.toLowerCase() === 'y' || response.toLowerrCase() === "YES")
+            if (response.toLowerCase() === 'y' || response.toLowerCase() === "YES")
             {
                 movie = false;
             }
