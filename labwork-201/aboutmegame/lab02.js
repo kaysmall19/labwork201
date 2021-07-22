@@ -1,10 +1,3 @@
-// // Ask for a name
-// let nameEntered = prompt("Enter your Name?");
-// // Welcome the user
-// let welcome = confirm("So you said your name was " + nameEntered + welcome);
-// // Output the result
-// alert("So OK your name is " + nameEntered + + welcome);
-
   //quizzing the user 
   
   let birthday = true;
@@ -59,8 +52,6 @@ let goal = true;
                 goal = false;
             }
         }
-
- let response = prompt("enter a answer:");
-    
+   
  console.log("The answer is " + response.toUpperCase() + response.toLowerCase());
 
