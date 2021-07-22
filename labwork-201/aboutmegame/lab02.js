@@ -1,5 +1,9 @@
 //quizzing the user
   //LAB 02
+
+  let name=prompt("What is Maliks' fan name");
+  alert('Hello ' + name);
+
   let birthday = true;
         while (birthday)
         {
@@ -55,12 +59,7 @@ let goal = true;
    
  console.log("The answer is " + response.toUpperCase() + response.toLowerCase());
 
- 
-//  let hello = prompt("What is your name?").toLowerCase(); //user should enter a 'name' 
-//             if ("So your name is" + hello);
-//             {
-//                 console.log ("Welcome" + hello);
-//             }
+
 
 
 //LAB03
