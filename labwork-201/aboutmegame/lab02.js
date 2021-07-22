@@ -18,7 +18,7 @@ let movie = true;
             let response = prompt("Is Kiara's favorite movie Scary Movie 3?").toLowerCase(); //user should enter a 'y'
             if (response.toLowerCase() === 'y' || response.toLowerrCase() === "YES")
             {
-                movie = false
+                movie = false;
             }
         }
 
@@ -29,7 +29,7 @@ let movie = true;
             let response = prompt("Have Kiara ever had a job?").toLowerCase(); //user should enter a 'n' 
             if (response.toLowerCase() === 'n'|| response.toLowerCase() === "NO")
             {
-                job = false
+                job = false;
             }
         }
 
@@ -39,7 +39,7 @@ let color = true;
             let response = prompt("Is Kiara's favorite color green?").toUpperCase();  //user should enter a 'n'
             if (response.toUpperCase === 'n'|| response.toUpperCase() === "NO")
             {
-                color = false
+                color = false;
             }
         }   
 
@@ -49,7 +49,7 @@ let goal = true;
             let response = prompt("Is Kiara's goal is to finish school?").toLowerCase(); //user should enter a 'y' 
             if (response.toLowerCase() === 'y'|| response.toLowerCase() === "YES")
             {
-                goal = false
+                goal = false;
             }
         }
 
