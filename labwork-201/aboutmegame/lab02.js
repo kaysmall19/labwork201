@@ -67,7 +67,7 @@ let goal = true;
 let myAge = 21;
         let theyGotItCorrect = false;
         for (let attempt = 1; attempt <= 4; attempt++) 
-        {
+        { // prompt the user and alert them if its too high, too low, or in/correct.
             let guessedAge = prompt("Guess my age!");
             if (guessedAge > myAge) {
                 alert("Too High...Ohh try again!");
@@ -77,8 +77,7 @@ let myAge = 21;
             }
             if (guessedAge == myAge) {
                 alert("You got it!!!!! My age is indeed " + myAge);
-                theyGotItCorrect = true;
-                break;
+                theyGotItCorrect = false;
             }
         }
         if (!theyGotItRight)
