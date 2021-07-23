@@ -72,19 +72,18 @@ let myAge = 21;
             if (guessedAge > myAge) {
                 alert("Too High...Ohh try again!");
             }
-            if (guessedAge < myAge) {
+            else if (guessedAge < myAge) {
                 alert("Too low... Ohh try again!!!");
             }
-            if (guessedAge == myAge) {
-                alert("You got it!!!!! My age is indeed " + myAge);
-                theyGotItCorrect = false;
-            }
-        }
-        if (!theyGotItRight)
-        {
+        
+            else if (!theyGotItRight)
+             {
             alert('Ohh wish you could try again.');
-        }
-
+            }
+             else (guessedAge == myAge) {
+            alert("You got it!!!!! My age is indeed " + myAge);
+            theyGotItCorrect = false;
+            }
 
 
 // As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
