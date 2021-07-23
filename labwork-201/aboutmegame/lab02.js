@@ -68,23 +68,20 @@ let myAge = 21;
         let theyGotItCorrect = false;
         for (let attempt = 1; attempt <= 4; attempt++) 
         { // prompt the user and alert them if its too high, too low, or in/correct.
-            let guessedAge = prompt("Guess my age!");
-            if (guessedAge > myAge) {
+            let guessedAge = prompt("Guess my age!.....Pick a number 15-30");
+            if (guessedAge >= myAge) {
                 alert("Too High...Ohh try again!");
             }
-            else if (guessedAge < myAge) {
+            else if (guessedAge <= myAge) {
                 alert("Too low... Ohh try again!!!");
             }
-        
-            else if (!theyGotItRight)
-             {
-            alert('Ohh wish you could try again.');
-            }
-             else (guessedAge == myAge) {
-            alert("You got it!!!!! My age is indeed " + myAge);
-            theyGotItCorrect = false;
-            }
-
+            //  else (guessedAge == myAge)
+            // {
+            // alert("You got it!!!!! My age is indeed " + myAge);
+            // theyGotItCorrect = false;
+            // }
+            console.log(guessedAge >= myAge || guessedAge <= myAge);
+        }
 
 // As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
