@@ -1,7 +1,7 @@
 //quizzing the user
   //LAB 02
 
-  let name=prompt("What is Maliks' fan name");
+  let name = prompt("What is your name?");
   alert('Hello ' + name);
 
   let birthday = true;
